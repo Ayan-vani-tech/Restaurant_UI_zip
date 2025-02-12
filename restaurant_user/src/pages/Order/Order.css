@@ -1,0 +1,184 @@
+.Order {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+.Order .order-container {
+    width: 100%;
+    margin: 40px 30px;
+}
+
+.Order .order-container h1 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Order .main-container-head {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary-grey);
+    box-shadow: 0px 10px 20px 0px #00000033;
+}
+
+.Order .main-container-head p {
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Order .price-icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 3px;
+}
+
+.Order .head-titel {
+    display: flex;
+    align-items: center;
+}
+
+.Order .order-list {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.Order .face-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 400px;
+}
+
+.Order .user {
+    display: flex;
+}
+
+.Order .user-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.Order .user-ins {
+    color: #ffad14;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 8px;
+    line-height: 6px;
+}
+
+.Order .food-order {
+    color: #fff;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.Order .order-price {
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #ffad14;
+}
+
+.Order .order-time {
+    color: #fff;
+    font-family: Source Sans 3;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.Order .order-time span {
+    color: #ffad14;
+}
+
+.Order .order-save {
+    padding: 0px 10px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    font-family: Source Sans 3;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.line-vertical {
+    width: 100%;
+    border: 1px solid #eff1f766;
+}
+
+.Order .dropdown {
+    font-size: 14px;
+    width: 118px;
+    height: 40px;
+    z-index: 99;
+    margin-right: 20px;
+}
+
+.Order .drop {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.Order .dropdown .Dropdown-option {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ffad14;
+}
+
+.Order .dropdown .Dropdown-placeholder {
+    border-radius: 8px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #ecf0f1;
+    border: 1px solid #ffad14;
+}
+
+.Order .drop-icon {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    margin-top: -5px;
+    right: 30px;
+}
+
+.Order .order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Order .status {
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: #ffad14;
+    color: #000;
+    font-family: Source Sans 3;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Order .status:hover {
+    background-color: #ffa600bb;
+}

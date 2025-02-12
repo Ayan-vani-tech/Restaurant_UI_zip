@@ -1,0 +1,395 @@
+.status-bar-profile {
+    position: relative;
+}
+
+.visible {
+    display: none;
+}
+
+.profile-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    border: none;
+    background-color: var(--color-primary-grey);
+    width: 258px;
+    height: 191px;
+    bottom: 20px;
+    left: 80px;
+    border-radius: 10px;
+    color: var(--color-white);
+}
+
+.profile-popup > div {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid #ffad14; */
+}
+
+.pop_bottom_border {
+    border-bottom: 1px solid #ffad14;
+}
+
+.pop_up_options {
+    padding: 10px 28px;
+}
+
+.popup_details {
+    padding-left: 15px;
+}
+
+.statusbar-popup-name {
+    font-family: Source Sans 3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    align-self: center;
+}
+
+.popup-email {
+    font-family: Source Sans 3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.status-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.profile-popup-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    position: absolute;
+    border: none;
+    background-color: var(--color-primary-grey);
+    width: 258px;
+    height: 270px;
+    top: -160px;
+    left: 99px;
+    border-radius: 10px;
+    color: var(--color-white);
+    padding-left: 15px;
+}
+
+.profile-popup-2 > div {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid #ffad14; */
+}
+
+.input-pass-head {
+    font-family: Source Sans 3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffad14;
+}
+
+.input-pass-label {
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.input-pass {
+    width: 229px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3c3c3c;
+    border: 0.5px solid #ffad14;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.update-pass {
+    width: 229px;
+    height: 38px;
+    border-radius: 10px;
+    border: 0.5px solid #c4c4c4;
+    background-color: #ffad14;
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+}
+
+.active_bgc {
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.Frame {
+    width: 37px;
+    height: 37px;
+    margin-bottom: 3px;
+    padding: 8px;
+}
+
+.graph {
+    width: 37px;
+    height: 37px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.undefined {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.message {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 64px;
+    height: 94vh;
+    border-radius: 15px;
+    background-color: var(--color-primary-grey);
+}
+
+.sidebar > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.icon-sidebar {
+    align-self: center;
+    width: 100%;
+}
+
+.menu {
+    margin-bottom: 7px;
+    padding: 8px;
+    width: 33px;
+    height: 33px;
+}
+
+.sidebar .user {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 80px;
+}
+
+.sidebar .notifica-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar .Notification {
+    position: absolute;
+    border: 1px solid #ffad14;
+    background-color: #2e2e2e;
+    width: 472px;
+    height: 650px;
+    bottom: 10px;
+    left: 60px;
+    color: var(--color-white);
+}
+
+.sidebar .not {
+    height: 588px;
+    overflow-y: auto;
+}
+
+.sidebar .switch {
+    width: 24;
+    height: 15;
+    background-color: red;
+}
+
+.sidebar .notification-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ffad14;
+    padding: 10px;
+}
+
+.sidebar .notification-list h3 {
+    font-family: Source Sans 3;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sidebar .notification-list h4 {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar .notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ffad14;
+    padding: 8px;
+    width: 100%;
+}
+
+.sidebar .not-text {
+    display: flex;
+    align-items: center;
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar .not-text span {
+    color: #ffad14;
+    margin: 0px 5px;
+}
+
+.sidebar .not-text h1 {
+    font-family: Source Sans 3;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px 5px;
+    color: #ffad14;
+}
+
+.sidebar .not-view {
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebar .Profile {
+    position: absolute;
+    background-color: #2e2e2e;
+    width: 334px;
+    height: 720px;
+    bottom: -10px;
+    left: 60px;
+    color: var(--color-white);
+    overflow-y: auto;
+}
+
+.sidebar .user-profile {
+    padding: 15px;
+}
+
+.sidebar .camera-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    margin-bottom: -1px;
+}
+
+.sidebar .user-icon {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.sidebar .user-profile h2 {
+    font-family: Source Sans 3;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sidebar .user-profile h3 {
+    font-family: Source Sans 3;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sidebar .inputs label {
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.sidebar .inputs {
+    margin-top: 5px;
+}
+
+.sidebar .name-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 31px;
+    border: 1px solid #ffad14;
+    background-color: #2e2e2e;
+    padding: 0px 20px;
+    color: #fff;
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebar .Profile button {
+    width: 100%;
+    height: 38px;
+    border-radius: 31px;
+    background-color: #ffad14;
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 20px 0px #00000033;
+    cursor: pointer;
+    color: #000;
+}
+
+.sidebar .right-icon {
+    width: 25px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.sidebar button:hover {
+    background-color: #ffa600bb;
+}
+
+/* .sidebar .Qr {
+    width: 305px;
+    height: 168px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    border: 1px solid #ffad14;
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+    color: var(--color-white);
+    padding: 10px;
+} */

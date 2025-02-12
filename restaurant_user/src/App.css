@@ -1,0 +1,26 @@
+.App {
+    background-image: url("./assets/images/bgimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1d1d1d;
+    height: 100vh;
+    width: 100vw;
+}
+
+.popup {
+    position: relative;
+}
+
+.center-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 693px;
+    border-radius: 17px;
+    border: 1px solid var(--color-primary-yellow);
+    background-color: var(--color-primary-dark-grey);
+}

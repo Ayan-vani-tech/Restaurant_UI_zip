@@ -1,0 +1,122 @@
+input {
+    outline: none;
+}
+
+.sige-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sige-up .logo {
+    width: 136px;
+    height: 105px;
+    margin-bottom: 24px;
+}
+
+.sige-up .sigeup {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: calc(100% - 80%);
+}
+
+.sige-up .head-admin {
+    font-size: 43px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: Inter;
+}
+
+.sige-up .state-line-icon {
+    width: 4px;
+    height: 100%;
+}
+
+.sige-up .input-table {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sige-up .input-type {
+    display: flex;
+    align-items: center;
+}
+
+.sige-up .input-name {
+    width: 225px;
+    height: 59px;
+    border-radius: 11px;
+    padding: 3% 6%;
+    border: 1px solid var(--color-primary-yellow);
+    background-color: var(--color-primary-grey);
+    color: var(--color-secondary-white);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Inter;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.sige-up .input-name::placeholder {
+    color: var(--color-secondary-white);
+}
+
+.sige-up .location-icon {
+    width: 24px;
+    height: 25px;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+}
+
+.sige-up .input {
+    width: 469px;
+    height: 59px;
+    border-radius: 11px;
+    padding: 0% 13% 0% 4%;
+    border: 1px solid var(--color-primary-yellow);
+    background-color: var(--color-primary-grey);
+    color: var(--color-secondary-white);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.sige-up .input::placeholder {
+    color: var(--color-secondary-white);
+}
+
+.sige-up .input-label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    color: var(--color-white);
+}
+
+.sige-up .login-btn {
+    width: 467px;
+    height: 63px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px;
+    background: linear-gradient(
+        to right,
+        var(--color-primary-yellow),
+        var(--color-primary-grey)
+    );
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--color-white);
+    border: 1px solid var(--color-primary-yellow);
+}

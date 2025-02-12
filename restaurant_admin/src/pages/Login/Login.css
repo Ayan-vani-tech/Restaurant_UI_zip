@@ -1,0 +1,141 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 136px;
+  height: 105px;
+  margin-bottom: 24px;
+}
+
+.head-admin {
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: 50px;
+  font-family: Inter;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 424px;
+  height: 59px;
+  top: 326px;
+  left: 508px;
+  border-radius: 11px;
+  padding: 3% 6%;
+  border: 1px solid var(--color-primary-yellow);
+  background-color: var(--color-primary-grey);
+  color: var(--color-secondary-white);
+
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input:focus {
+  border: 1px solid var(--color-primary-yellow);
+}
+
+.input::placeholder {
+  color: var(--color-secondary-white);
+}
+
+.input-label {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 4px;
+  color: var(--color-white);
+}
+
+.remember-me-box {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.remember-me {
+  color: var(--color-secondary-white);
+  font-size: 15px;
+  font-weight: 700;
+
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.login-btn {
+  width: 424px;
+  height: 63px;
+  top: 555px;
+  left: 508px;
+  margin-top: 30px;
+  border-radius: 12px;
+  border: 1px;
+  background: linear-gradient(
+    to right,
+    var(--color-primary-yellow),
+    var(--color-primary-grey)
+  );
+
+  /* font-family: Source Sans 3; */
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--color-white);
+  border: 1px solid var(--color-primary-yellow);
+}
+
+@media only screen and (max-width: 13.9in) {
+}
+
+/* Styles for screens between 13 inches and 14 inches */
+@media only screen and (min-width: 13in) and (max-width: 14in) {
+  .logo {
+    width: auto;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .head-admin {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .input {
+    width: 424px;
+    height: 50px;
+    margin-bottom: 13px;
+  }
+
+  .login-btn {
+    width: 424px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}

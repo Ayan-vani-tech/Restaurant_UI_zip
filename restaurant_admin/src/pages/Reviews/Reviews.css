@@ -1,0 +1,121 @@
+.Reviews {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 14px;
+}
+
+.Reviews .container-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    margin: 10px 0;
+    padding: 0px 40px;
+    color: white;
+}
+
+.Reviews .main-container .reciew-btn {
+    width: 212px;
+    height: 40px;
+    background-color: #ffad14;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.Reviews .container-review .pizza-view {
+    color: #ffad14;
+    margin-top: -8px;
+    font-size: 12px;
+}
+
+.Reviews .container-review .reting {
+    color: #ffad14;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Reviews .container-review .rew {
+    font-size: 16px;
+    font-weight: 600;
+    width: 295px;
+}
+
+.Reviews .container-review .time {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -2px;
+}
+
+.Reviews .container-review .sent-req {
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Reviews .main-container .titel-header p {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.Reviews .main-container .titel-header img {
+    margin-left: 5px;
+}
+
+.Reviews .dropdown {
+    font-size: 14px;
+    width: 118px;
+    height: 40px;
+    z-index: 99;
+    margin-right: 20px;
+}
+
+.Reviews .drop {
+    position: relative;
+}
+
+.Reviews .dropdown .Dropdown-option {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ffad14;
+}
+
+.Reviews .dropdown .Dropdown-placeholder {
+    border-radius: 8px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #ecf0f1;
+    border: 1px solid #ffad14;
+}
+
+.Reviews .drop-icon {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    margin-top: 15px;
+    right: 30px;
+}
+
+.Reviews .review-title {
+    display: flex;
+    align-items: center;
+}
+
+.Reviews .sale {
+    background-color: #ffad14;
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 10px;
+    padding: 4px 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,228 @@
+.Reviews {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+.Reviews .reviews-container {
+    width: 100%;
+    margin: 5px 30px;
+}
+
+.Reviews .review-title {
+    display: flex;
+    align-items: center;
+}
+
+.Reviews .review-title .food-icon {
+    width: 61px;
+    height: 61px;
+}
+
+.Reviews .review-title h2 {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.Reviews .start-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.Reviews .rating {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffad14;
+    border-radius: 4px;
+    padding: 0px 10px;
+    width: 70px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.Reviews .tab-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.Reviews button {
+    background-color: #2e2e2e;
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    width: 212px;
+    height: 40px;
+}
+
+.Reviews .tabActive {
+    background-color: #ffad14;
+    color: #1d1d1d;
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Reviews .main-container-head {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary-grey);
+    box-shadow: 0px 10px 20px 0px #00000033;
+    margin-top: 5px;
+}
+
+.Reviews .main-container-head p {
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Reviews .price-icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 3px;
+}
+
+.Reviews .head-titel {
+    display: flex;
+    align-items: center;
+}
+
+.Reviews .container-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    margin: 10px 0;
+    padding: 0px 40px;
+    color: white;
+}
+
+.Reviews .food-name {
+    display: flex;
+    align-items: center;
+}
+
+.Reviews .food-img {
+    width: 47px;
+    height: 47px;
+    border-radius: 400px;
+}
+
+.Reviews .food-name h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.Reviews .food-name h3 {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffad14;
+    line-height: 10px;
+    margin-left: 5px;
+}
+
+.Reviews .face-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.Reviews .review-reting {
+    color: #ffad14;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Reviews .reviews {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 18px;
+}
+
+.Reviews .review-time {
+    font-family: Source Sans 3;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.Reviews .review-time span {
+    font-family: Source Sans 3;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffad14;
+}
+
+.Reviews .sent-req {
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Reviews .sale {
+    background-color: #ffad14;
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 10px;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+.Reviews .dropdown {
+    font-size: 14px;
+    width: 118px;
+    height: 40px;
+    z-index: 99;
+    margin-right: 20px;
+}
+
+.Reviews .drop {
+    position: relative;
+}
+
+.Reviews .dropdown .Dropdown-option {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ffad14;
+}
+
+.Reviews .dropdown .Dropdown-placeholder {
+    border-radius: 8px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #ecf0f1;
+    border: 1px solid #ffad14;
+}
+
+.Reviews .drop-icon {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    margin-top: -27px;
+    right: 30px;
+}

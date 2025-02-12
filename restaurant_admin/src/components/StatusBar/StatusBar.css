@@ -1,0 +1,173 @@
+.status-bar-profile {
+    position: relative;
+}
+
+.visible {
+    display: none;
+}
+
+.profile-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    border: none;
+    background-color: var(--color-primary-grey);
+    width: 258px;
+    height: 191px;
+    bottom: 10px;
+    left: 65px;
+    border-radius: 10px;
+    color: var(--color-white);
+}
+
+.profile-popup > div {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid #ffad14; */
+}
+
+.pop_bottom_border {
+    border-bottom: 1px solid #ffad14;
+}
+
+.pop_up_options {
+    padding: 10px 28px;
+}
+
+.popup_details {
+    padding-left: 15px;
+}
+
+.statusbar-popup-name {
+    font-family: Source Sans 3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    align-self: center;
+}
+
+.popup-email {
+    font-family: Source Sans 3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.status-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.profile-popup-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    border: none;
+    background-color: var(--color-primary-grey);
+    width: 258px;
+    height: 270px;
+    bottom: 10px;
+    left: 65px;
+    border-radius: 10px;
+    color: var(--color-white);
+    padding-left: 15px;
+}
+
+.profile-popup-2 > div {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid #ffad14; */
+}
+
+.input-pass-head {
+    font-family: Source Sans 3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffad14;
+}
+
+.input-pass-label {
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.input-pass {
+    width: 229px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3c3c3c;
+    border: 0.5px solid #ffad14;
+    color: #fff;
+    padding: 0px 15px;
+}
+
+.update-pass {
+    width: 229px;
+    height: 38px;
+    border-radius: 10px;
+    border: 0.5px solid #c4c4c4;
+    background-color: #ffad14;
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+}
+
+.active_bgc {
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.Frame {
+    width: 37px;
+    height: 37px;
+    margin-bottom: 3px;
+    padding: 8px;
+}
+
+.graph {
+    width: 37px;
+    height: 37px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.undefined {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.message {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.icon-sidebar:hover {
+    background-color: #4a4949;
+    border-radius: 10px;
+}

@@ -1,0 +1,80 @@
+.container-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    margin: 10px 0;
+    padding: 0px 40px;
+    color: white;
+}
+
+.container-review .pizza-view {
+    color: #ffad14;
+    margin-top: -8px;
+    font-size: 12px;
+}
+
+.container-review .reting {
+    color: #ffad14;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.container-review .rew {
+    font-size: 16px;
+    font-weight: 600;
+    width: 295px;
+}
+
+.container-review .time {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -2px;
+}
+
+.container-review .sent-req {
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-container .titel-header p {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.main-container .titel-header img {
+    margin-left: 5px;
+}
+
+.main-container .rew-text {
+    font-size: 15px;
+    font-weight: 600;
+    width: 472px;
+    line-height: 17px;
+}
+
+.main-container .dis-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dis-header .food {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.main-container .dis-ratings {
+    padding: 1px 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffad14;
+    border-radius: 4px;
+    margin-left: 15px;
+    color: #fff;
+}

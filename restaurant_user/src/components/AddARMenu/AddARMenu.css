@@ -1,0 +1,273 @@
+.center-dialog-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 30px;
+    width: 538px;
+    height: 480px;
+    border-radius: 17px;
+    background-color: var(--color-primary-dark-grey);
+    outline: none;
+    border: none;
+}
+
+.ArMenu .ar-header {
+    font-family: Source Sans 3;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.ArMenu .line-icon {
+    width: 100%;
+    height: 4px;
+}
+
+.ArMenu .first-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+
+.ArMenu .common-label {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.ArMenu .input-name {
+    width: 197px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid #ffad14;
+    padding: 0px 10px;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: Source Sans 3;
+    font-size: 14px;
+}
+
+.ArMenu .input-name::placeholder {
+    font-family: Source Sans 3;
+    font-size: 13px;
+    font-weight: 600;
+    color: #696969;
+}
+
+.ArMenu .input-price {
+    width: 197px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid #ffad14;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 0px 15px 0px 30px;
+    font-family: Source Sans 3;
+    font-size: 14px;
+}
+
+.ArMenu .rupee-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ArMenu .rupee-icon {
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.ArMenu .dow-icon {
+    position: absolute;
+    right: 10px;
+}
+
+.ArMenu .upload {
+    padding: 0px 30px 0px 15px;
+}
+
+.ArMenu .comment-input {
+    width: 158px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid #ffad14;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 0px 15px;
+    font-family: Source Sans 3;
+    font-size: 14px;
+}
+
+.ArMenu .container-grad {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.ArMenu .gradient-2 {
+    width: 229px;
+    height: 4px;
+    background: linear-gradient(to right, #ffad14, #ffffff, #2e2e2e);
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+.ArMenu .common-label-or {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-white);
+    margin: 0px 10px 0 10px;
+}
+
+.ArMenu .gradient-1 {
+    width: 220px;
+    height: 4px;
+    background: linear-gradient(to right, #2e2e2e, #ffffff, #ffad14);
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+.ArMenu .upload-files {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.ArMenu .upload-files > div:nth-child(1) {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.ArMenu .upload-files > div:nth-child(2) {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffad14;
+}
+
+.ArMenu .dropdown {
+    font-size: 14px;
+    width: 128px;
+    height: 43px;
+    z-index: 99;
+    position: relative;
+}
+
+.ArMenu .dropdown .Dropdown-option {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ffad14;
+}
+
+.ArMenu .dropdown .Dropdown-placeholder {
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+    border: 1px solid #ffad14;
+}
+
+.ArMenu .drop-icon {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 17%;
+}
+
+.ArMenu .food-veg {
+    margin-left: 15px;
+}
+
+.ArMenu .teamdropdown {
+    font-size: 14px;
+    width: 128px;
+    height: 43px;
+    position: relative;
+}
+
+.ArMenu .teamdropdown .Dropdown-option {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ffad14;
+}
+
+.ArMenu .teamdropdown .Dropdown-placeholder {
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+    border: 1px solid #ffad14;
+    width: 94px;
+}
+
+.ArMenu .icon {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 12%;
+}
+
+.ArMenu .btn {
+    width: 169px;
+    height: 33px;
+    background-color: #ffad14;
+    padding: 7px 18px;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+    border: none;
+}
+
+.ArMenu .button {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.ArMenu .finish {
+    width: 81px;
+    height: 33px;
+    background-color: #ffad14;
+    padding: 7px 18px;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.ArMenu button:hover {
+    background-color: #ffa600bb;
+}

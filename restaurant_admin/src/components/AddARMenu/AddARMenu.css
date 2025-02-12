@@ -1,0 +1,250 @@
+.center-dialog-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 600px;
+    height: 540px;
+    border-radius: 17px;
+    border: 1px solid var(--color-primary-yellow);
+    background-color: var(--color-primary-dark-grey);
+}
+
+.price {
+    width: 234px;
+    padding-left: 30px;
+}
+
+.upload {
+    width: 220px;
+    height: 43px;
+    border-radius: 10px;
+    border: 0.5px solid #ffad14;
+    padding-right: 40px;
+}
+
+.rupee-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.rupee-container > img {
+    width: 12px;
+    height: 20px;
+    margin-right: -20px;
+    z-index: 10;
+}
+
+.download-container {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.download-container > img {
+    width: 20px;
+    height: 16px;
+    margin-left: -50px;
+    z-index: 10;
+}
+
+.container-grad {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 25px;
+    /* margin-left: 20px; */
+}
+
+.gradient-2 {
+    width: 229px;
+    height: 4px;
+    background: linear-gradient(to right, #ffad14, #ffffff, #2e2e2e);
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+.common-label-or {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-white);
+    margin: 0px 10px 0 10px;
+}
+
+.gradient-1 {
+    width: 220px;
+    height: 4px;
+    background: linear-gradient(to right, #2e2e2e, #ffffff, #ffad14);
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+.upload-files {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.upload-files > div:nth-child(1) {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.upload-files > div:nth-child(2) {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffad14;
+}
+
+.dropdown {
+    font-size: 14px;
+    width: 128px;
+    height: 43px;
+    z-index: 99;
+}
+
+.dropdown .Dropdown-option {
+    background-color: #3c3c3c;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #ffad14;
+}
+
+.dropdown .Dropdown-placeholder {
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+    border: 1px solid #ffad14;
+}
+
+.drop {
+    display: flex;
+    position: relative;
+}
+
+.down-icon {
+    width: 15px;
+    height: 7px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.drop-food {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.food-veg {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.teamdropdown {
+    font-size: 14px;
+    width: 100px;
+    height: 43px;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffad14;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 15px;
+    height: 7px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.btn {
+    width: 169px;
+    height: 33px;
+    background-color: #ffad14;
+    padding: 7px 18px;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.finish {
+    width: 81px;
+    height: 33px;
+    background-color: #ffad14;
+    padding: 7px 18px;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.veg {
+    width: 19px;
+    height: 19px;
+    /* margin-left: 5px; */
+}
+
+.veg-text {
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 6px;
+}
+
+.veg-drop {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.veg2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.non-veg {
+    border-bottom: 1px solid #ffad14;
+}
+
+.down {
+    border: 1px solid #ffad14;
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    margin-top: 5px;
+}
